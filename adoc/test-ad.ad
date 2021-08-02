@@ -1,0 +1,4 @@
+= AsciiDoc Test: `.ad` extension
+
+This document uses the `.ad` extension.
+It's not autodected as AsciiDoc, and not HTML preview is provided.
