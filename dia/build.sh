@@ -8,7 +8,7 @@ if [[ $(uname -s) == MINGW* ]]
 	else os=Lnx
 fi
 
-vDia=$(dia -v | grep -oP "\d\.\d+")
+vDia=$(dia -v | grep -oP "\d\.\d+(\.\d+)?")
 vSVGO=$(svgo -v)
 
 ## Set Output Filenames
